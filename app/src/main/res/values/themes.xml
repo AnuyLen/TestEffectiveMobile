@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+<!--    <style name="Base.Theme.TestEffectiveMobile" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="Theme.TestEffectiveMobile" parent="Base.Theme.TestEffectiveMobile" />-->
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/light_gray</item>
+<!--        <item name="fontFamily">@font/roboto_bold</item>-->
+<!--        <item name="android:textSize">@dimen/label_medium_size</item>-->
+<!--        <item name="android:lineSpacingExtra">@dimen/label_medium_line_height</item>-->
+    </style>
+</resources>

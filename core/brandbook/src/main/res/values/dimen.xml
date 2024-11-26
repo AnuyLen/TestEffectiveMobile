@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="label_large_size">14sp</dimen>
+    <dimen name="label_large_line_height">6sp</dimen>
+    <dimen name="label_large_tracking">0.1sp</dimen>
+    <dimen name="body_medium_size">14sp</dimen>
+    <dimen name="body_medium_line_height">6sp</dimen>
+    <dimen name="body_medium_tracking">0.25sp</dimen>
+    <dimen name="label_medium_size">12sp</dimen>
+    <dimen name="label_medium_line_height">4sp</dimen>
+    <dimen name="title_large_size">22sp</dimen>
+    <dimen name="title_large_line_height">6sp</dimen>
+    <dimen name="body_small_size">12sp</dimen>
+    <dimen name="body_small_line_height">4sp</dimen>
+    <dimen name="body_small_tracking">0.4sp</dimen>
+</resources>

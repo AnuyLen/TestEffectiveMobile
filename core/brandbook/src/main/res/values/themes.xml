@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.TestEffectiveMobile" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/dark</item>
+        <item name="colorPrimaryDark">@color/dark</item>
+        <item name="android:navigationBarColor">@color/dark_gray</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:windowBackground">@color/dark</item>
+        <item name="materialAlertDialogTheme">@style/MyThemeOverlay.MaterialComponents.MaterialAlertDialog</item>
+<!--        <item name="android:textColorHint">@android:color/white</item>-->
+<!--        <item name="android:textColorHint">@android:color/white</item>-->
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+    </style>
+
+    <style name="Theme.TestEffectiveMobile" parent="Base.Theme.TestEffectiveMobile" />
+
+    <style name="MyThemeOverlay.MaterialComponents.MaterialAlertDialog" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="android:backgroundTint">@color/dark_gray</item>
+    </style>
+
+
+    <style name="PositiveButtonStyle" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@color/white</item>
+        <item name="hintTextAppearance">@style/HintTextStyle</item>
+    </style>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="hintTextAppearance">@style/HintTextStyle</item>
+    </style>
+
+    <style name="HintTextStyle">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="alpha">0.5</item>
+    </style>
+
+    <style name="ImageRoundCorner">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="ImageRound20">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+</resources>

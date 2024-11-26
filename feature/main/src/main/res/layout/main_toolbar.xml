@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
+        android:contentInsetStart="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <SearchView
+                android:id="@+id/search_view"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/dark_gray"
+                android:iconifiedByDefault="false"
+                android:minHeight="56dp"
+                android:queryBackground="@android:color/transparent"
+                android:queryHint="Search courses..."
+                android:searchIcon="@drawable/search"
+                android:theme="@style/AppSearchView"
+                app:layout_constraintBottom_toBottomOf="@+id/filter"
+                app:layout_constraintEnd_toStartOf="@+id/filter"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/filter"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/rounded_corners"
+                android:backgroundTint="@color/dark_gray"
+                android:maxWidth="60sp"
+                android:minWidth="40sp"
+                android:src="@drawable/filter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sort"
+                style="@style/Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:drawableEnd="@drawable/sort"
+                android:gravity="center|right"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:minHeight="0dp"
+                android:padding="0dp"
+                android:text="По дате добавления"
+                android:textColor="@color/green"
+                app:iconPadding="4dp"
+                app:iconSize="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/filter" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </Toolbar>
+</com.google.android.material.appbar.AppBarLayout>

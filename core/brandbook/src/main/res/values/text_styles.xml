@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Headline">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Button">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/label_large_size</item>
+        <item name="android:lineSpacingExtra">@dimen/label_large_line_height</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BodyMedium">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/body_medium_size</item>
+        <item name="android:lineSpacingExtra">@dimen/body_medium_line_height</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BodySmall">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/body_small_size</item>
+        <item name="android:lineSpacingExtra">@dimen/body_small_line_height</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TitleMedium">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="ButtonSmall">
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonSmallGreen" parent="ButtonSmall">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="TitleLarge">
+        <item name="android:textSize">@dimen/title_large_size</item>
+        <item name="android:lineSpacingExtra">@dimen/title_large_line_height</item>
+    </style>
+
+    <style name="Caption">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+    </style>
+
+</resources>
